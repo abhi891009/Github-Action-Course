@@ -10,3 +10,19 @@ jobs:
         run: |
           echo " This job is running for ubuntu runner"
           echo " Runner OS: $RUNNER_OS"
+
+  windows-echo:
+    runs-on: windows-latest
+    steps:
+      - name: Show OS
+        run: |
+          echo "This job is running for windows runner"
+          echo "Runner OS: $RUNNER_OS"
+
+  mac-echo:
+    runs-on: mac-latest
+    steps:
+      - name: Show OS
+        run: |
+          echo "This job is running to mac runner"
+          echo "Runner OS: $RUNNER_OS"
