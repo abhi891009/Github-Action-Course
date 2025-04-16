@@ -1,0 +1,4 @@
+name: "First workflow file"
+config:
+    path: First-directory/file,yaml
+    environment: staging
